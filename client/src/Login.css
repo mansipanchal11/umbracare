@@ -1,0 +1,4 @@
+/* client/src/Login.css */
+.login-button:hover {
+  background-color: #A04763; /* Darker shade of #B85170 on hover */
+}

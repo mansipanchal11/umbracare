@@ -1,0 +1,208 @@
+/* client/src/Dashboard.css */
+.dashboard-button:hover {
+  background-color: #A04763; /* Slightly darker shade of #B85170 for hover effect */
+  transform: scale(1.05);
+}
+
+.dashboard-button:active {
+  transform: scale(0.95);
+}
+
+/* Reset and General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Changed to match Newsletter's font */
+}
+
+body {
+  background: linear-gradient(135deg, #FDE8E9 0%, #FFD9E1 100%); /* Adjusted gradient to pink tones */
+  color: #333;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B85170; /* Changed from #f28c38 to primary color */
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust based on your logo size */
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #FFFFFF; /* Kept white for contrast */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: #B85170; /* Changed hover to secondary color */
+  text-decoration: underline;
+}
+
+.logout-btn {
+  background-color: #FFFFFF;
+  color: #B85170; /* Changed from #f28c38 to primary color */
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  color: #B85170; /* Changed from #333 to primary color */
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Add Measurements Section */
+.measurements {
+  margin-bottom: 40px;
+}
+
+.measurements span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.measurement-btn {
+  background-color: #B85170; /* Changed from #f28c38 to primary color */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Measurements List */
+.measurements-list {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.measurements-list h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #B85170; /* Changed to primary color */
+}
+
+.measurements-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.measurements-list li {
+  background-color: #F9F9F9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Trackers Grid */
+.trackers-grid {
+  display: flex; /* Change to flex for single line */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  gap: 20px;
+  max-width: 1200px; /* Adjust based on your design */
+  margin: 0 auto;
+  overflow-x: auto; /* Allow horizontal scrolling on smaller screens */
+}
+
+.tracker-card {
+  background-color: #B85170; /* Changed from #f28c38 to primary color */
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex: 1; /* Make cards take equal width */
+  min-width: 200px; /* Minimum width for each card */
+}
+
+.tracker-card:hover {
+  background-color: #A04763; /* Slightly darker shade of #B85170 for hover */
+}
+
+.tracker-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.tracker-card h3 {
+  font-size: 18px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.newsletter-btn {
+  background-color: #B85170; /* Changed from #f28c38 to primary color */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Chatbot Button */
+.chatbot-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #B85170; /* Changed from #f28c38 to primary color */
+  color: #FFFFFF;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
